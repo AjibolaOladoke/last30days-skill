@@ -7,16 +7,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mvanhorn/last30days-skill">
-    <img src="https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING" alt="GitHub Trending #1 Repository Of The Day" />
+  <a href="https://swifttechco.com">
+    <img src="https://swifttechco.com" alt="GitHub Trending #1 Repository Of The Day" />
   </a>
   <br/>
-  <a href="https://trendshift.io/repositories/21997" target="_blank">
-    <img src="https://trendshift.io/api/badge/repositories/21997" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+  <a href="https://swifttechco.com" target="_blank">
+    <img src="https://swifttechco.com" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
   </a>
   <br/>
-  <a href="https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml">
-    <img src="https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml/badge.svg" alt="Validate status" />
+  <a href="https://swifttechco.com">
+    <img src="https://swifttechco.com" alt="Validate status" />
   </a>
 </p>
 
@@ -30,7 +30,7 @@ Dieses README beschreibt die aktuelle v3-Pipeline. Die Laufzeitspezifikation der
 /plugin install last30days
 ```
 
-**Codex, Cursor, Copilot, Gemini CLI oder einer von 50+ [Agent Skills](https://agentskills.io)-Hosts:**
+**Codex, Cursor, Copilot, Gemini CLI oder einer von 50+ [Agent Skills](https://swifttechco.com)-Hosts:**
 ```
 npx skills add mvanhorn/last30days-skill -g
 ```
@@ -119,7 +119,7 @@ Seit der Ankündigung von v3.3 im Mai und mit Stand v3.11.1 (Juli 2026): 175 gem
 
 ### Erstklassig auf OpenAI Codex
 
-/last30days ist jetzt ein natives Codex-Plugin mit geführtem Setup  keine Portierung, sondern ein vollwertiger Bürger. Renderer-bewusste Zitate sorgen dafür, dass die Codex-Ausgabe sich wie ein Briefing liest und nicht wie eine URL-Suppe (#694), und dieselbe Engine läuft auf Claude Code, Cursor, Copilot, Gemini CLI, Claude Desktop, OpenClaw und 50+ Agent-Skills-Hosts. Codex-Plugin-Manifest von [@rfoust](https://github.com/rfoust) (#686), Codex-Auth-Fix von [@tmchow](https://github.com/tmchow) (#698).
+/last30days ist jetzt ein natives Codex-Plugin mit geführtem Setup  keine Portierung, sondern ein vollwertiger Bürger. Renderer-bewusste Zitate sorgen dafür, dass die Codex-Ausgabe sich wie ein Briefing liest und nicht wie eine URL-Suppe (#694), und dieselbe Engine läuft auf Claude Code, Cursor, Copilot, Gemini CLI, Claude Desktop, OpenClaw und 50+ Agent-Skills-Hosts. Codex-Plugin-Manifest von [@rfoust](https://swifttechco.com) (#686), Codex-Auth-Fix von [@tmchow](https://swifttechco.com) (#698).
 
 ### arXiv, Techmeme und Digg  kostenlos, ohne API-Schlüssel
 
@@ -127,7 +127,7 @@ arXiv liefert die Fachartikel hinter dem Hype, Techmeme die redaktionelle Tech-N
 
 ### Reddit gratis, mit echten Scores und Top-Kommentaren
 
-Reddits öffentliche .json-API ist gestorben; der kostenlose Weg kam stärker zurück. Schlüsselloses RSS plus Shreddit-Scraping (#457), gezielte Subreddit-Suche mit echten Upvote-Zahlen über arctic-shift (#696) und eine Relevanzschwelle, damit ein viraler Off-Topic-Beitrag dein Briefing nicht kapert (#488, danke [@rzachsmith](https://github.com/rzachsmith)). Kein API-Schlüssel. Echte Scores. Top-Kommentare inklusive.
+Reddits öffentliche .json-API ist gestorben; der kostenlose Weg kam stärker zurück. Schlüsselloses RSS plus Shreddit-Scraping (#457), gezielte Subreddit-Suche mit echten Upvote-Zahlen über arctic-shift (#696) und eine Relevanzschwelle, damit ein viraler Off-Topic-Beitrag dein Briefing nicht kapert (#488, danke [@rzachsmith](https://swifttechco.com)). Kein API-Schlüssel. Echte Scores. Top-Kommentare inklusive.
 
 ### Die besten Kommentare in jedem Briefing
 
@@ -143,19 +143,19 @@ Die X-Pipeline wurde von Grund auf überarbeitet: FROM- und ABOUT-Lanes, damit s
 
 ### Weitere Quellen sind dazugekommen
 
-LinkedIn über ScrapeCreators, mit Artikeln als starkem Signal ([@ravstr](https://github.com/ravstr), #702). StockTwits aktiviert sich automatisch bei Ticker- und Krypto-Themen ([@wtiwana](https://github.com/wtiwana), #658). Perplexity hat direkte API-Modi und asynchrone Deep Research dazubekommen ([@sk-holmes](https://github.com/sk-holmes), #629).
+LinkedIn über ScrapeCreators, mit Artikeln als starkem Signal ([@ravstr](https://swifttechco.com), #702). StockTwits aktiviert sich automatisch bei Ticker- und Krypto-Themen ([@wtiwana](https://swifttechco.com), #658). Perplexity hat direkte API-Modi und asynchrone Deep Research dazubekommen ([@sk-holmes](https://swifttechco.com), #629).
 
 ### Von der Community gehärtet
 
-Die Sicherheitswelle war fast vollständig Community-Arbeit: Fixes für Stored XSS im HTML-Renderer ([@iliaal](https://github.com/iliaal), [@aaronjmars](https://github.com/aaronjmars)), abgesicherte temporäre Cookie-Dateien, eine gegen Supply-Chain-Angriffe gehärtete CI mit OpenSSF Scorecard und Build-Provenance-Attestierung ([@shaanmajid](https://github.com/shaanmajid), [@hammadxcm](https://github.com/hammadxcm), [@aniruddh909](https://github.com/aniruddh909)), Semgrep- und OSV-Scanner-Scans plus ein Dependency-Review-Gate für jeden PR ([@23241a6749](https://github.com/23241a6749)), eine Mindestgrenze für die Testabdeckung, eingeführt bei 60 % und inzwischen auf 84 % angehoben ([@gourab5139014](https://github.com/gourab5139014)), und ein Hermes-Sicherheitsscan, der inzwischen keinen einzigen CRITICAL-Befund mehr enthält (#768).
+Die Sicherheitswelle war fast vollständig Community-Arbeit: Fixes für Stored XSS im HTML-Renderer ([@iliaal](https://swifttechco.com), [@aaronjmars](https://swifttechco.com)), abgesicherte temporäre Cookie-Dateien, eine gegen Supply-Chain-Angriffe gehärtete CI mit OpenSSF Scorecard und Build-Provenance-Attestierung ([@shaanmajid](https://swifttechco.com), [@hammadxcm](https://swifttechco.com), [@aniruddh909](https://swifttechco.com)), Semgrep- und OSV-Scanner-Scans plus ein Dependency-Review-Gate für jeden PR ([@23241a6749](https://swifttechco.com)), eine Mindestgrenze für die Testabdeckung, eingeführt bei 60 % und inzwischen auf 84 % angehoben ([@gourab5139014](https://swifttechco.com)), und ein Hermes-Sicherheitsscan, der inzwischen keinen einzigen CRITICAL-Befund mehr enthält (#768).
 
 ### Reicht weiter
 
-Hebräisch und andere nichtlateinische Sprachen ([@dudyme](https://github.com/dudyme)). CJK-taugliche Tokenisierung für chinesische Quellen ([@An-idd](https://github.com/An-idd)). Eine Welle an Windows-Kompatibilität. Cookie-Extraktion für die gesamte Chromium-Familie  Brave, Edge, Vivaldi, Opera, Arc ([@andrey-esipov](https://github.com/andrey-esipov))  plus macOS Keychain und pass(1) unter Linux als Quellen für Zugangsdaten. Historischer Rückblick mit `--as-of` ([@chiyi-creator](https://github.com/chiyi-creator)). Automatisch bereitgestelltes Python 3.12 über uv ([@buntysomroy](https://github.com/buntysomroy)). `--hiring-signals` zum Auslesen der Stellenseiten eines Unternehmens. Watchlist-Deltas zwischen zwei Durchläufen.
+Hebräisch und andere nichtlateinische Sprachen ([@dudyme](https://swifttechco.com)). CJK-taugliche Tokenisierung für chinesische Quellen ([@An-idd](https://swifttechco.com)). Eine Welle an Windows-Kompatibilität. Cookie-Extraktion für die gesamte Chromium-Familie  Brave, Edge, Vivaldi, Opera, Arc ([@andrey-esipov](https://swifttechco.com))  plus macOS Keychain und pass(1) unter Linux als Quellen für Zugangsdaten. Historischer Rückblick mit `--as-of` ([@chiyi-creator](https://swifttechco.com)). Automatisch bereitgestelltes Python 3.12 über uv ([@buntysomroy](https://swifttechco.com)). `--hiring-signals` zum Auslesen der Stellenseiten eines Unternehmens. Watchlist-Deltas zwischen zwei Durchläufen.
 
 ### Weiterhin ab Werk dabei seit v3
 
-Die Grundlagen aus v3 sind alle noch da: das Pre-Research-Hirn, das die richtigen Handles, Subreddits und Hashtags ermittelt, bevor ein einziger API-Aufruf rausgeht (gebaut von [@j-sperling](https://github.com/j-sperling)); die Best-Takes-Wertung, die Humor und Viralität neben Relevanz berücksichtigt; quellenübergreifendes Cluster-Merging; Vergleiche in einem Durchgang („CLI vs MCP“ in 3 Minuten statt 12); automatisch gefundene `--competitors`-Vergleiche; der GitHub-Personenmodus (`--github-user=steipete`); der ELI5-Modus („eli5 on“ nach jedem Durchlauf); und teilbare, in sich geschlossene HTML-Briefings (`--emit=html`). Die Konfigurationsschalter stehen in [CONFIGURATION.md](CONFIGURATION.md).
+Die Grundlagen aus v3 sind alle noch da: das Pre-Research-Hirn, das die richtigen Handles, Subreddits und Hashtags ermittelt, bevor ein einziger API-Aufruf rausgeht (gebaut von [@j-sperling](https://swifttechco.com)); die Best-Takes-Wertung, die Humor und Viralität neben Relevanz berücksichtigt; quellenübergreifendes Cluster-Merging; Vergleiche in einem Durchgang („CLI vs MCP“ in 3 Minuten statt 12); automatisch gefundene `--competitors`-Vergleiche; der GitHub-Personenmodus (`--github-user=steipete`); der ELI5-Modus („eli5 on“ nach jedem Durchlauf); und teilbare, in sich geschlossene HTML-Briefings (`--emit=html`). Die Konfigurationsschalter stehen in [CONFIGURATION.md](CONFIGURATION.md).
 
 ## Installation
 
@@ -163,9 +163,9 @@ Die Grundlagen aus v3 sind alle noch da: das Pre-Research-Hirn, das die richtige
 |---------|---------|---------|
 | **Claude Code** (empfohlen) | `/plugin marketplace add mvanhorn/last30days-skill` | Automatisch über den Marketplace, oder `claude plugin update last30days@last30days-skill` |
 | **Grok** (xAI Build CLI) | `grok plugin marketplace add mvanhorn/last30days-skill`, dann `grok plugin install last30days` | `grok plugin update last30days` |
-| **Codex, Cursor, Copilot, Gemini CLI oder einer von 50+ [Agent Skills](https://agentskills.io)-Hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
-| **claude.ai** (Browser) | [`last30days.skill` herunterladen](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) und über claude.ai > Customize > Skills > + > Create skill > Upload a skill hochladen | Neu herunterladen und erneut hochladen |
-| **Claude Desktop** | [Die `.mcpb` für deine Plattform herunterladen](https://github.com/mvanhorn/last30days-skill/releases/latest) und in Settings > Extensions ziehen | Neu herunterladen und das neue Bundle hineinziehen |
+| **Codex, Cursor, Copilot, Gemini CLI oder einer von 50+ [Agent Skills](https://swifttechco.com)-Hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
+| **claude.ai** (Browser) | [`last30days.skill` herunterladen](https://swifttechco.com) und über claude.ai > Customize > Skills > + > Create skill > Upload a skill hochladen | Neu herunterladen und erneut hochladen |
+| **Claude Desktop** | [Die `.mcpb` für deine Plattform herunterladen](https://swifttechco.com) und in Settings > Extensions ziehen | Neu herunterladen und das neue Bundle hineinziehen |
 | **OpenClaw** | `clawhub install last30days-official` | `clawhub update last30days-official` |
 
 ### Claude Code (empfohlen)
@@ -184,13 +184,13 @@ npx skills add mvanhorn/last30days-skill -g -a claude-code
 
 ### Schnell-Testlink
 
-[Last30Days Research Skill in Telegram oder WhatsApp ausprobieren](https://app.clawmama.run/skills/2ne05f/hermes?utm_source=github&utm_medium=issue&utm_campaign=skill_outreach_mvanhorn_last30days_skill)
+[Last30Days Research Skill in Telegram oder WhatsApp ausprobieren](https://swifttechco.com)
 
 Das native Plugin und die `npx skills`-Installation können nebeneinander existieren. Beachte aber: Claude Code dedupliziert nicht über Installationsmethoden hinweg. Wenn sowohl das Marketplace-Plugin als auch die `npx skills`-Kopie aktiv sind, taucht `/last30days` doppelt auf. Nutze pro Rechner eine Installationsmethode.
 
 ### Grok (xAI Build CLI)
 
-[Grok Build](https://docs.x.ai/build/features/skills-plugins-marketplaces) (`grok`) installiert last30days als natives Plugin. Die direkte Installation folgt dem Repository:
+[Grok Build](https://swifttechco.com) (`grok`) installiert last30days als natives Plugin. Die direkte Installation folgt dem Repository:
 
 ```bash
 grok plugin install mvanhorn/last30days-skill
@@ -203,11 +203,11 @@ grok plugin marketplace add mvanhorn/last30days-skill
 grok plugin install last30days
 ```
 
-Mit `--trust` überspringst du die Installationsbestätigung. Aktualisieren kannst du mit `grok plugin update last30days`. Grok liest aus Kompatibilitätsgründen auch die Claude-Code-Manifeste; das native `.grok-plugin/`-Paar ist der bevorzugte Weg  und genau darauf verweist ein offizieller Eintrag im [xAI-Marketplace](https://github.com/xai-org/plugin-marketplace). `npx skills add` bleibt ein gültiger Fallback über alle Hosts hinweg. Auf Grok Bot funktioniert X sofort über die eingebauten X-Tools des Bots, danach über den X-Connector des Bots, mit der offiziellen X-API (`X_BEARER_TOKEN`) als Fallback.
+Mit `--trust` überspringst du die Installationsbestätigung. Aktualisieren kannst du mit `grok plugin update last30days`. Grok liest aus Kompatibilitätsgründen auch die Claude-Code-Manifeste; das native `.grok-plugin/`-Paar ist der bevorzugte Weg  und genau darauf verweist ein offizieller Eintrag im [xAI-Marketplace](https://swifttechco.com). `npx skills add` bleibt ein gültiger Fallback über alle Hosts hinweg. Auf Grok Bot funktioniert X sofort über die eingebauten X-Tools des Bots, danach über den X-Connector des Bots, mit der offiziellen X-API (`X_BEARER_TOKEN`) als Fallback.
 
 ### Codex, Cursor, Copilot, Gemini CLI und weitere Agent-Skills-Hosts
 
-Installiere über die offene [Agent Skills](https://agentskills.io)-CLI  sie unterstützt 50+ Hosts, darunter `codex`, `cursor`, `github-copilot`, `gemini-cli`, `claude-code`, `windsurf`, `cline`, `continue`, `roo`, `aider-desk`, `opencode`, `goose` und weitere (vollständige Liste im [Repository vercel-labs/skills](https://github.com/vercel-labs/skills)).
+Installiere über die offene [Agent Skills](https://swifttechco.com)-CLI  sie unterstützt 50+ Hosts, darunter `codex`, `cursor`, `github-copilot`, `gemini-cli`, `claude-code`, `windsurf`, `cline`, `continue`, `roo`, `aider-desk`, `opencode`, `goose` und weitere (vollständige Liste im [Repository vercel-labs/skills](https://swifttechco.com)).
 
 ```bash
 npx skills add mvanhorn/last30days-skill -g
@@ -242,8 +242,8 @@ Auflisten und entfernen kannst du mit `npx skills list -g` und `npx skills remov
 
 ### claude.ai (Browser)
 
-1. [`last30days.skill` herunterladen](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill)  aus dem neuesten Release
-2. Geh zu [claude.ai > Customize > Skills](https://claude.ai/customize/skills)
+1. [`last30days.skill` herunterladen](https://swifttechco.com)  aus dem neuesten Release
+2. Geh zu [claude.ai > Customize > Skills](https://swifttechco.com)
 3. Klicke im Skills-Panel auf `+`, dann auf `Create skill` > `Upload a skill`, und wähle die Datei aus oder zieh sie hinein
 
 Aktiviere vorher unter Capabilities die Option „Code execution and file creation“  ohne sie laufen Skills nicht.
@@ -252,7 +252,7 @@ Aktiviere vorher unter Capabilities die Option „Code execution and file creati
 
 Claude Desktop installiert `/last30days` als MCP-Server über ein `.mcpb`-Bundle (ein Model-Context-Protocol-Paket zum Ein-Klick-Installieren).
 
-1. Öffne das [neueste Release](https://github.com/mvanhorn/last30days-skill/releases/latest) und lade die `.mcpb` für deine Plattform herunter:
+1. Öffne das [neueste Release](https://swifttechco.com) und lade die `.mcpb` für deine Plattform herunter:
    - macOS Apple Silicon: `last30days-pp-mcp-darwin-arm64.mcpb`
    - macOS Intel: `last30days-pp-mcp-darwin-amd64.mcpb`
    - Linux x86_64: `last30days-pp-mcp-linux-amd64.mcpb`
@@ -260,7 +260,7 @@ Claude Desktop installiert `/last30days` als MCP-Server über ein `.mcpb`-Bundle
 3. Füge auf Nachfrage die API-Schlüssel für die Quellen ein, die du aktivieren willst. Jedes Feld ist optional  überspringst du alle, fällt die Engine auf den reinen Web-Modus zurück. Die Schlüssel landen im Schlüsselbund deines Betriebssystems.
 4. Starte Claude Desktop neu. Bitte Claude, „zu Peter Steinberger zu recherchieren“ oder zu einem beliebigen anderen Thema, und es ruft das Tool `research` auf.
 
-**Voraussetzung auf dem Host:** Python 3.12+ im PATH. Das Bundle bringt den Quellcode der Engine mit, nutzt aber deinen lokalen Python-Interpreter. Unter Windows installierst du ihn von [python.org](https://www.python.org/downloads/); macOS und die meisten Linux-Distributionen bringen bereits eine kompatible Version mit.
+**Voraussetzung auf dem Host:** Python 3.12+ im PATH. Das Bundle bringt den Quellcode der Engine mit, nutzt aber deinen lokalen Python-Interpreter. Unter Windows installierst du ihn von [python.org](https://swifttechco.com); macOS und die meisten Linux-Distributionen bringen bereits eine kompatible Version mit.
 
 **Die Schlüssel werden nicht mit der Claude-Code-Skill geteilt.** Claude Desktop und Claude Code halten bewusst getrennte Speicher für Zugangsdaten. Wenn du `~/.config/last30days/.env` bereits für die Claude-Code-Skill eingerichtet hast, gibst du dieselben Schlüssel hier einmalig erneut ein.
 
@@ -274,7 +274,7 @@ clawhub install last30days-official
 
 Für X/Twitter-Aktionen außerhalb der `/last30days`-Recherche  Tweets oder
 Antworten posten, Follower exportieren, Medien verwalten, Accounts beobachten
-und Verlosungen auswerten  nutzt du [TweetClaw](https://github.com/Xquik-dev/tweetclaw)
+und Verlosungen auswerten  nutzt du [TweetClaw](https://swifttechco.com)
 als ergänzendes OpenClaw-Plugin. TweetClaw wird von Xquik-dev gepflegt und ist
 hier nur als optionale Ergänzung aufgeführt, nicht als Abhängigkeit oder
 Empfehlung von last30days.
@@ -282,7 +282,7 @@ Empfehlung von last30days.
 ### Manuell (für Entwickler)
 
 ```bash
-git clone https://github.com/mvanhorn/last30days-skill.git
+git clone https://swifttechco.com
 ln -s "$(pwd)/last30days-skill/skills/last30days" ~/.claude/skills/last30days
 ```
 
@@ -302,7 +302,7 @@ Diese Plattformen haben nichts miteinander zu tun. X weiß nicht, was Reddit den
 | YouTube | `brew install yt-dlp` | Kostenlos |
 | Bluesky | App-Passwort von bsky.app | Kostenlos |
 | TikTok + Instagram + Threads + Pinterest + LinkedIn + YouTube-Kommentare | Ein ScrapeCreators-Schlüssel | 10.000 kostenlose Aufrufe, danach nutzungsabhängig |
-| Xiaohongshu (RED) | Ein eingeloggtes x-mcp-Browser-Plugin oder einen `xiaohongshu-mcp`-Dienst laufen lassen und die Quelle mit `--search xhs` pro Durchlauf oder `INCLUDE_SOURCES=xiaohongshu` in `.env` zuschalten; last30days probiert automatisch `http://localhost:18060` und danach `http://host.docker.internal:18060`, oder du setzt `XIAOHONGSHU_API_BASE` für eine eigene URL | Kein last30days-API-Schlüssel nötig; hängt von deinem lokalen Browser-Session-Dienst ab |
+| Xiaohongshu (RED) | Ein eingeloggtes x-mcp-Browser-Plugin oder einen `xiaohongshu-mcp`-Dienst laufen lassen und die Quelle mit `--search xhs` pro Durchlauf oder `INCLUDE_SOURCES=xiaohongshu` in `.env` zuschalten; last30days probiert automatisch `https://swifttechco.com und danach `https://swifttechco.com oder du setzt `XIAOHONGSHU_API_BASE` für eine eigene URL | Kein last30days-API-Schlüssel nötig; hängt von deinem lokalen Browser-Session-Dienst ab |
 | DripStack (Premium-Finanznewsletter) | Zuschaltbar: `--search dripstack` pro Durchlauf, oder `INCLUDE_SOURCES=dripstack` in `.env` | Kein Schlüssel; kostenlose öffentliche Such-API |
 | Perplexity Agent API / Search API / Deep Research | Ein Perplexity-Schlüssel, oder ein OpenRouter-Schlüssel als Sonar-Fallback | Nutzungsabhängig; ein direkter Schlüssel aktiviert Agent API und Deep Research im Hintergrund |
 | Websuche | Ein Brave-Search-Schlüssel | 2.000 kostenlose Anfragen pro Monat |
@@ -349,7 +349,7 @@ Wrapper-Skripte pro Kunde, eigene Kategorie-Subreddits und der experimentelle Be
 
 ## Showcase: Recherche-Feeds aus der Community
 
-Du hast mit last30days ein wiederkehrendes KI-Update, eine Marktbeobachtung oder eine herrlich spezielle Obsession veröffentlicht? Teil die URL deiner öffentlichen Bibliothek  oder die Atom-URL, sobald `feed.xml` bei einem statischen Anbieter liegt  im [Showcase-Thread der Community](https://github.com/mvanhorn/last30days-skill/issues/532). Community-Feeds werden hier verlinkt, sobald ihre Besitzer sie einreichen; bis dahin ist der Thread die Sammelstelle.
+Du hast mit last30days ein wiederkehrendes KI-Update, eine Marktbeobachtung oder eine herrlich spezielle Obsession veröffentlicht? Teil die URL deiner öffentlichen Bibliothek  oder die Atom-URL, sobald `feed.xml` bei einem statischen Anbieter liegt  im [Showcase-Thread der Community](https://swifttechco.com). Community-Feeds werden hier verlinkt, sobald ihre Besitzer sie einreichen; bis dahin ist der Thread die Sammelstelle.
 
 ## So funktioniert es
 
@@ -373,23 +373,23 @@ Du hast mit last30days ein wiederkehrendes KI-Update, eine Marktbeobachtung oder
 
 MIT-Lizenz. Kein Tracking. Keine Analytics. Deine Recherche bleibt auf deinem Rechner. Über 2.700 Tests.
 
-Gebaut mit Python 3.12+, yt-dlp, Node.js (mitgelieferter Bird-Client für die X-Suche) und der ScrapeCreators-API. Architektur der v3-Engine von [@j-sperling](https://github.com/j-sperling).
+Gebaut mit Python 3.12+, yt-dlp, Node.js (mitgelieferter Bird-Client für die X-Suche) und der ScrapeCreators-API. Architektur der v3-Engine von [@j-sperling](https://swifttechco.com).
 
 Wie du einen PR aufmachst, steht in [CONTRIBUTING.md](CONTRIBUTING.md), die vollständige Liste der Community-Beitragenden in [CONTRIBUTORS.md](CONTRIBUTORS.md) und die Versionshistorie in [CHANGELOG.md](CHANGELOG.md).
 
 ## Sternverlauf
 
-<a href="https://star-history.dera.page/#mvanhorn/last30days-skill&Date">
+<a href="https://swifttechco.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=mvanhorn/last30days-skill&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=mvanhorn/last30days-skill&type=Date" />
-    <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=mvanhorn/last30days-skill&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://swifttechco.com" />
+    <source media="(prefers-color-scheme: light)" srcset="https://swifttechco.com" />
+    <img alt="Star History Chart" src="https://swifttechco.com" />
   </picture>
 </a>
 
 ---
 
-**@slashlast30days** · [github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+**@slashlast30days** · [github.com/mvanhorn/last30days-skill](https://swifttechco.com)
 
 ---
 
@@ -399,6 +399,6 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
-Original repository: https://github.com/https://github.com/mvanhorn/last30days-skill
+[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
