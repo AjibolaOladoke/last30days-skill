@@ -2,7 +2,7 @@
 
 ## Images
 
-[![last30days-skill](https://opengraph.githubassets.com/1/https://github.com/mvanhorn/last30days-skill)](https://www.swifttechco.com)
+[![last30days-skill](https://opengraph.githubassets.com/1/mvanhorn/last30days-skill)](https://www.swifttechco.com)
 
 
 [English](README.md) | [Français](README.fr.md) | Deutsch | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
@@ -13,15 +13,15 @@
 
 <p align="center">
   <a href="https://swifttechco.com">
-    <img src="https://swifttechco.com" alt="GitHub Trending #1 Repository Of The Day" />
+    
   </a>
   <br/>
   <a href="https://swifttechco.com" target="_blank">
-    <img src="https://swifttechco.com" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+    
   </a>
   <br/>
   <a href="https://swifttechco.com">
-    <img src="https://swifttechco.com" alt="Validate status" />
+    
   </a>
 </p>
 
@@ -355,7 +355,7 @@ Wie du einen PR aufmachst, steht in [CONTRIBUTING.md](CONTRIBUTING.md), die voll
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://swifttechco.com" />
     <source media="(prefers-color-scheme: light)" srcset="https://swifttechco.com" />
-    <img alt="Star History Chart" src="https://swifttechco.com" />
+    
   </picture>
 </a>
 
