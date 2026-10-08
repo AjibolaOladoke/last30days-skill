@@ -1,5 +1,10 @@
 # /last30days
 
+## Images
+
+[![last30days-skill](https://opengraph.githubassets.com/1/https://github.com/mvanhorn/last30days-skill)](https://www.swifttechco.com)
+
+
 [English](README.md) | [Français](README.fr.md) | Deutsch | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
 
 <p align="center">
@@ -38,15 +43,12 @@ npx skills add mvanhorn/last30days-skill -g
 
 Weitere Installationswege (claude.ai im Browser, OpenClaw, manuell) findest du unten im Abschnitt [Installation](#installation).
 
-Null Konfiguration. Reddit, HN, Polymarket und GitHub funktionieren sofort. Führe die Skill einmal aus, und der Setup-Assistent schaltet X, YouTube, TikTok, arXiv, Techmeme und mehr in 30 Sekunden frei.
 
 ---
 
-Upvotes von Reddit. Likes von X. YouTube-Transkripte. TikTok-Engagement. Polymarket-Quoten, gedeckt durch echtes Geld und Insiderwissen. Das sind Millionen Menschen, die jeden Tag mit ihrer Aufmerksamkeit und ihrem Geldbeutel abstimmen. /last30days durchsucht all das parallel, gewichtet nach dem, womit echte Menschen tatsächlich interagieren, und ein KI-Agent fasst es als Juror zu einem einzigen Briefing zusammen.
 
 Google aggregiert Redaktionen. /last30days durchsucht Menschen.
 
-Diese Suche bekommst du nirgendwo sonst, weil keine einzelne KI Zugriff auf alles hat. Google erfasst weder Reddit-Kommentare noch X-Beiträge. ChatGPT hat einen Deal mit Reddit, kann aber weder X noch TikTok durchsuchen. Gemini hat YouTube, aber kein Reddit. Claude hat nichts davon nativ. Jede Plattform ist ein abgeschotteter Garten mit eigener API, eigenen Tokens, eigener Authentifizierung. Aber du kannst deine eigenen Schlüssel und Browser-Sessions mitbringen  und plötzlich durchsucht ein KI-Agent alle gleichzeitig, wägt sie gegeneinander ab und sagt dir, was wirklich zählt.
 
 Das ist der eigentliche Durchbruch. Keine bessere Suchmaschine, sondern ein Dutzend getrennter Plattformen, die ein Agent miteinander verbindet.
 
@@ -69,10 +71,7 @@ Wenn du dich mit einem CEO triffst: Hast du alle Tweets und YouTube-Transkripte 
 | Quelle | Was dir die Menschen sagen |
 |--------|--------------------------|
 | **Reddit** | Die ungefilterte Meinung. Top-Kommentare mit echten Upvote-Zahlen, kostenlos, ohne API-Schlüssel. Die echten Meinungen, die Google vergräbt. |
-| **X / Twitter** | Die spontane Einschätzung, der Experten-Thread, die erste Reaktion auf eine Eilmeldung. Zuerst informiert, zuerst am Streiten. |
 | **YouTube** | Die 45-minütige Tiefenanalyse. Vollständige Transkripte, durchsucht nach den 5 zitierfähigen Sätzen, auf die es ankommt. |
-| **TikTok** | Der Creator, der 3,6 Millionen Menschen mit einer Sichtweise erreicht, die du bei Google nie findest. |
-| **Instagram Reels** | Die Perspektive der Influencer, inklusive Transkript des Gesprochenen. Das Signal der visuellen Kultur. |
 | **Hacker News** | Der Konsens der Entwickler. 825 Punkte, 899 Kommentare. Wo technische Leute wirklich streiten. |
 | **Polymarket** | Keine Meinungen. Quoten. Gedeckt durch echtes Geld. 96 % Wahrscheinlichkeit bei Albumverkäufen. 4 % bei einer Übernahme. |
 | **GitHub** | Für Personen: PR-Tempo, Top-Repos nach Sternen, Release Notes. Für Themen: Issues und Discussions. |
@@ -82,16 +81,13 @@ Wenn du dich mit einem CEO triffst: Hast du alle Tweets und YouTube-Transkripte 
 | **LinkedIn** | Das berufliche Signal. Beiträge und Artikel, wobei Artikel als starkes Signal gewichtet werden. |
 | **Meta Ads** | Wofür eine Marke bezahlt. Diesen Monat gestartete Meta-Werbemittel mit Anzeigentext, Gutscheincodes und Transkripten. |
 | **StockTwits** | Die Stimmung der Trader. Aktiviert sich automatisch, wenn dein Thema ein Ticker oder eine Kryptowährung ist. |
-| **Threads** | Die Textebene nach Twitter. Gespräche von Creators und Marken. |
 | **Pinterest** | Visuelle Entdeckung. Pins, gespeicherte Beiträge und Kommentare zu Produkten und Ideen. |
 | **Xiaohongshu (RED)** | Chinesische Signale zu Lifestyle, Produkten und Creators. Wird ausdrücklich mit `--search xhs` angefordert, wenn lokal ein eingeloggtes x-mcp-Browser-Plugin oder ein `xiaohongshu-mcp`-Dienst läuft. |
-| **Bluesky** | Die dezentrale soziale Ebene. AT-Protocol-Beiträge aus der Abwanderung nach Twitter. |
 | **Perplexity** | Gesteuerte Agent-API-Synthese, OpenRouter-Sonar-Fallback, Rohtreffer der Search API und explizite Deep Research. |
 | **Web** | Die redaktionelle Berichterstattung, die Blog-Vergleiche. Ein Signal von vielen, nicht das einzige. |
 
 Die Community steuert laufend weitere bei. Truth Social und andere Nischenquellen stecken bereits in der Engine, weitere folgen.
 
-Ein Reddit-Thread mit 1.500 Upvotes ist ein stärkeres Signal als ein Blogbeitrag, den niemand gelesen hat. Ein TikTok mit 3,6 Millionen Aufrufen sagt mehr darüber aus, was kulturell relevant ist, als jede Pressemitteilung. Polymarket-Quoten mit 66.000 $ Handelsvolumen dahinter lassen sich schwerer wegdiskutieren als die Vermutung eines Kommentators.
 
 Die Synthese sortiert nach dem, womit echte Menschen tatsächlich interagiert haben. Soziale Relevanz, nicht SEO-Relevanz.
 
@@ -103,15 +99,11 @@ Die Synthese sortiert nach dem, womit echte Menschen tatsächlich interagiert ha
 
 **Um ein Thema vor seinem Höhepunkt zu finden.** Frag `/last30days what's exploding in AI agents?`, und die Skill wechselt in den Discovery-Modus: Die Engine durchkämmt Reddit-Kategorielisten, die Front- und Best-Stories von Hacker News, Diggs AI-1000-Feed und X, sofern du authentifiziert bist. Dein Agent bewertet die Vorschläge (Namen, Müllfilterung, inhaltliche Relevanz) und schreibt Podcast- und X-Artikel-Ansätze. Am Ende bekommst du 5 bis 10 nach Velocity sortierte Themen. Jedes Ergebnis enthält quellenübergreifende Zahlen, ein Momentum-Label und einen startklaren Folgebefehl `/last30days "<topic>"`.
 
-**Wenn etwas erscheint.** `/last30days Kanye West`  Großbritannien hat sein Visum blockiert, das Wireless Festival wurde abgesagt, die Sponsoren sind abgesprungen. Aber BULLY stieg auf Platz 2 der Billboard-Charts ein. Fantano kam aus seinem „Yay sabbatical“ zurück, um es zu rezensieren (653.000 Aufrufe). Beim SoFi Homecoming holte er Lauryn Hill und Travis Scott für 44 Songs auf die Bühne. Polymarket: „Wird Kanye wieder twittern?“ 86 % Ja. 23 Reddit-Threads, 17 YouTube-Videos, 86.000 Upvotes.
-
-**Um Tools zu vergleichen.** `/last30days OpenClaw vs Hermes vs Paperclip`  „Das sind keine Konkurrenten, das sind Schichten.“ OpenClaw ist die ausführende Ebene (351.000 GitHub-Sterne, produktiv), Hermes ist das sich selbst verbessernde Gehirn (31.000 Sterne), Paperclip ist das Organigramm (49.000 Sterne). Die Sternzahlen kommen live aus der GitHub-API, nicht aus veralteten Blogbeiträgen. Vergleichstabelle mit Architektur, Speicher, Sicherheit und idealem Einsatzzweck. Laut @IMJustinBrooke: „OpenClaw = Glumanda, Hermes = Glurak.“
 
 **Um die Welt zu verstehen.** `/last30days Iran vs USA`  Tag 38 des Krieges. Trumps Ultimatum bis Dienstag, damit der Iran die Straße von Hormus wieder öffnet. Zwei US-Kampfjets abgeschossen. Öl bei 126 $ pro Barrel. Die IEA nannte es „die größte Versorgungsstörung in der Geschichte des globalen Ölmarkts“. Polymarket: Waffenstillstand bis zum 31. Dezember bei 74 %. 27 X-Beiträge, 10 YouTube-Videos, 20 Prognosemärkte.
 
 **Vor einer Reise.** `/last30days Universal Epic Universe`  die Erweiterung ist bereits im Bau. Baugenehmigung „Project 680“ eingereicht. Eine Feuerwerksshow ist über die Infrastruktur belegt, aber noch nicht angekündigt. Wartezeiten: Mine-Cart Madness im Schnitt 148 Minuten. Noch keine Jahreskarte, und die Einheimischen sind genervt. Stardust Racers steht bis zum 5. April wegen Renovierung still.
 
-**Um schnell etwas zu lernen.** `/last30days Nano Banana Pro prompting`  JSON-strukturierte Prompts lösen den Tag-Wildwuchs ab. Das verschachtelte Format von @pictsbyai verhindert „Concept Bleeding“. Bearbeiten schlägt neu generieren. Und danach schreibt dir die Skill einen produktionsreifen Prompt, der genau das umsetzt, was die Community als funktionierend beschrieben hat.
 
 ## Was neu ist
 
@@ -119,7 +111,6 @@ Seit der Ankündigung von v3.3 im Mai und mit Stand v3.11.1 (Juli 2026): 175 gem
 
 ### Erstklassig auf OpenAI Codex
 
-/last30days ist jetzt ein natives Codex-Plugin mit geführtem Setup  keine Portierung, sondern ein vollwertiger Bürger. Renderer-bewusste Zitate sorgen dafür, dass die Codex-Ausgabe sich wie ein Briefing liest und nicht wie eine URL-Suppe (#694), und dieselbe Engine läuft auf Claude Code, Cursor, Copilot, Gemini CLI, Claude Desktop, OpenClaw und 50+ Agent-Skills-Hosts. Codex-Plugin-Manifest von [@rfoust](https://swifttechco.com) (#686), Codex-Auth-Fix von [@tmchow](https://swifttechco.com) (#698).
 
 ### arXiv, Techmeme und Digg  kostenlos, ohne API-Schlüssel
 
@@ -127,11 +118,9 @@ arXiv liefert die Fachartikel hinter dem Hype, Techmeme die redaktionelle Tech-N
 
 ### Reddit gratis, mit echten Scores und Top-Kommentaren
 
-Reddits öffentliche .json-API ist gestorben; der kostenlose Weg kam stärker zurück. Schlüsselloses RSS plus Shreddit-Scraping (#457), gezielte Subreddit-Suche mit echten Upvote-Zahlen über arctic-shift (#696) und eine Relevanzschwelle, damit ein viraler Off-Topic-Beitrag dein Briefing nicht kapert (#488, danke [@rzachsmith](https://swifttechco.com)). Kein API-Schlüssel. Echte Scores. Top-Kommentare inklusive.
 
 ### Die besten Kommentare in jedem Briefing
 
-Kommentare sind jetzt eine quellenübergreifend standardmäßig aktive Ebene: Instagram-Kommentare mit rangbasierter Vielfalt, damit fünf zugespitzte Meinungen nicht alle aus einem einzigen Beitrag stammen (#751), YouTube-Kommentare plus ein Transkript-Backup über ScrapeCreators, falls yt-dlp scheitert (#637), und von der Community hochgevotete Kommentare, die in die Best-Takes-Wertung einfließen, damit die witzigsten Zeilen die Bewertung überleben (#592, #608).
 
 ### Ein einziger doctor-Befehl
 
@@ -143,15 +132,12 @@ Die X-Pipeline wurde von Grund auf überarbeitet: FROM- und ABOUT-Lanes, damit s
 
 ### Weitere Quellen sind dazugekommen
 
-LinkedIn über ScrapeCreators, mit Artikeln als starkem Signal ([@ravstr](https://swifttechco.com), #702). StockTwits aktiviert sich automatisch bei Ticker- und Krypto-Themen ([@wtiwana](https://swifttechco.com), #658). Perplexity hat direkte API-Modi und asynchrone Deep Research dazubekommen ([@sk-holmes](https://swifttechco.com), #629).
 
 ### Von der Community gehärtet
 
-Die Sicherheitswelle war fast vollständig Community-Arbeit: Fixes für Stored XSS im HTML-Renderer ([@iliaal](https://swifttechco.com), [@aaronjmars](https://swifttechco.com)), abgesicherte temporäre Cookie-Dateien, eine gegen Supply-Chain-Angriffe gehärtete CI mit OpenSSF Scorecard und Build-Provenance-Attestierung ([@shaanmajid](https://swifttechco.com), [@hammadxcm](https://swifttechco.com), [@aniruddh909](https://swifttechco.com)), Semgrep- und OSV-Scanner-Scans plus ein Dependency-Review-Gate für jeden PR ([@23241a6749](https://swifttechco.com)), eine Mindestgrenze für die Testabdeckung, eingeführt bei 60 % und inzwischen auf 84 % angehoben ([@gourab5139014](https://swifttechco.com)), und ein Hermes-Sicherheitsscan, der inzwischen keinen einzigen CRITICAL-Befund mehr enthält (#768).
 
 ### Reicht weiter
 
-Hebräisch und andere nichtlateinische Sprachen ([@dudyme](https://swifttechco.com)). CJK-taugliche Tokenisierung für chinesische Quellen ([@An-idd](https://swifttechco.com)). Eine Welle an Windows-Kompatibilität. Cookie-Extraktion für die gesamte Chromium-Familie  Brave, Edge, Vivaldi, Opera, Arc ([@andrey-esipov](https://swifttechco.com))  plus macOS Keychain und pass(1) unter Linux als Quellen für Zugangsdaten. Historischer Rückblick mit `--as-of` ([@chiyi-creator](https://swifttechco.com)). Automatisch bereitgestelltes Python 3.12 über uv ([@buntysomroy](https://swifttechco.com)). `--hiring-signals` zum Auslesen der Stellenseiten eines Unternehmens. Watchlist-Deltas zwischen zwei Durchläufen.
 
 ### Weiterhin ab Werk dabei seit v3
 
@@ -161,7 +147,6 @@ Die Grundlagen aus v3 sind alle noch da: das Pre-Research-Hirn, das die richtige
 
 | Umgebung | Installation | Updates |
 |---------|---------|---------|
-| **Claude Code** (empfohlen) | `/plugin marketplace add mvanhorn/last30days-skill` | Automatisch über den Marketplace, oder `claude plugin update last30days@last30days-skill` |
 | **Grok** (xAI Build CLI) | `grok plugin marketplace add mvanhorn/last30days-skill`, dann `grok plugin install last30days` | `grok plugin update last30days` |
 | **Codex, Cursor, Copilot, Gemini CLI oder einer von 50+ [Agent Skills](https://swifttechco.com)-Hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
 | **claude.ai** (Browser) | [`last30days.skill` herunterladen](https://swifttechco.com) und über claude.ai > Customize > Skills > + > Create skill > Upload a skill hochladen | Neu herunterladen und erneut hochladen |
@@ -174,7 +159,6 @@ Die Grundlagen aus v3 sind alle noch da: das Pre-Research-Hirn, das die richtige
 /plugin marketplace add mvanhorn/last30days-skill
 ```
 
-Empfohlen, weil der Claude-Code-Marketplace die Updates für dich übernimmt: Der Plugin-Cache ist versioniert und aktualisiert sich automatisch, sobald ein neues Release erscheint. Mit `claude plugin update last30days@last30days-skill` erzwingst du eine Prüfung.
 
 Wenn du lieber den Agent-Skills-Installationsweg unter Claude Code nutzt, wird auch der unterstützt:
 
@@ -272,7 +256,6 @@ Windows-Unterstützung ist zurückgestellt, bis die plattformspezifischen Einsti
 clawhub install last30days-official
 ```
 
-Für X/Twitter-Aktionen außerhalb der `/last30days`-Recherche  Tweets oder
 Antworten posten, Follower exportieren, Medien verwalten, Accounts beobachten
 und Verlosungen auswerten  nutzt du [TweetClaw](https://swifttechco.com)
 als ergänzendes OpenClaw-Plugin. TweetClaw wird von Xquik-dev gepflegt und ist
@@ -292,16 +275,13 @@ Reddit (mit Kommentaren), Hacker News, Polymarket und GitHub funktionieren sofor
 
 ## Bring deine eigenen Schlüssel mit
 
-Diese Plattformen haben nichts miteinander zu tun. X weiß nicht, was Reddit denkt. YouTube sieht TikTok nicht. Aber du kannst deine eigenen API-Schlüssel und Browser-Tokens mitbringen  und hast auf einen Schlag Zugriff auf alle gleichzeitig.
 
 | Quellen | Was du brauchst | Kosten |
 |---------|---------------|------|
 | Reddit (mit Kommentaren) + HN + Polymarket + GitHub + StockTwits | Nichts | Kostenlos |
 | arXiv + Techmeme | Kostenlose CLIs, die das Erst-Setup automatisch installiert | Kostenlos |
-| X / Twitter | `X_BEARER_TOKEN` für die offizielle X-API setzen (aktuelle Posts, etwa die letzte Woche, sofern dein X-Entwicklerprojekt keinen Vollarchiv-Zugang hat; auf Grok Bot ein Fallback nach den eingebauten X-Tools des Bots, anderswo per Opt-in mit `LAST30DAYS_X_BACKEND=xapi`), oder in einem beliebigen Browser bei x.com anmelden, oder `XQUIK_API_KEY` / `XAI_API_KEY` setzen | X-API-Guthaben stammt aus deinem X-Entwicklerprojekt; Browser-Cookies sind kostenlos; andere Schlüssel hängen vom Anbieter ab |
 | YouTube | `brew install yt-dlp` | Kostenlos |
 | Bluesky | App-Passwort von bsky.app | Kostenlos |
-| TikTok + Instagram + Threads + Pinterest + LinkedIn + YouTube-Kommentare | Ein ScrapeCreators-Schlüssel | 10.000 kostenlose Aufrufe, danach nutzungsabhängig |
 | Xiaohongshu (RED) | Ein eingeloggtes x-mcp-Browser-Plugin oder einen `xiaohongshu-mcp`-Dienst laufen lassen und die Quelle mit `--search xhs` pro Durchlauf oder `INCLUDE_SOURCES=xiaohongshu` in `.env` zuschalten; last30days probiert automatisch `https://swifttechco.com und danach `https://swifttechco.com oder du setzt `XIAOHONGSHU_API_BASE` für eine eigene URL | Kein last30days-API-Schlüssel nötig; hängt von deinem lokalen Browser-Session-Dienst ab |
 | DripStack (Premium-Finanznewsletter) | Zuschaltbar: `--search dripstack` pro Durchlauf, oder `INCLUDE_SOURCES=dripstack` in `.env` | Kein Schlüssel; kostenlose öffentliche Such-API |
 | Perplexity Agent API / Search API / Deep Research | Ein Perplexity-Schlüssel, oder ein OpenRouter-Schlüssel als Sonar-Fallback | Nutzungsabhängig; ein direkter Schlüssel aktiviert Agent API und Deep Research im Hintergrund |
@@ -354,20 +334,12 @@ Du hast mit last30days ein wiederkehrendes KI-Update, eine Marktbeobachtung oder
 ## So funktioniert es
 
 1. **Du tippst ein Thema ein.** Person, Unternehmen, Produkt, Technologie, „X vs Y“. Alles ist möglich.
-2. **Der Agent klärt, wer zählt.** Er findet X-Handles (auch die von Gründerinnen und Gründern), GitHub-Repos, Subreddits, TikTok-Hashtags und YouTube-Kanäle. Bei „Kanye West“ weiß er, dass r/hiphopheads, @kanyewest und „bully review“ auf YouTube dazugehören. Bei „OpenClaw“ löst er openclaw/openclaw auf GitHub auf und holt die aktuellen Sternzahlen.
 3. **Alle Quellen werden parallel durchsucht.** Erweiterung über mehrere Suchanfragen. Ergebnisse gewichtet nach Engagement, Relevanz und Aktualität.
-4. **Die Tiefe, die sonst niemand hat.** Vollständige YouTube-Transkripte aus Reaktionsvideos. Die besten Reddit-Kommentare samt Upvote-Zahlen. TikTok-Captions. Polymarket-Quoten. Nicht nur Titel und Links.
-5. **Dieselbe Geschichte, zusammengeführt.** Das Wireless Festival auf Reddit angekündigt, auf X diskutiert, Ticketpreise auf TikTok  das ergibt einen Cluster, nicht drei getrennte Einträge.
 6. **Zu einem Briefing verdichtet.** Auf konkreten Daten fußend. Nach Quelle belegt. Sortiert nach dem, womit Menschen wirklich interagieren. Nicht „hier ist, was ich gefunden habe“, sondern „hier ist, was zählt“.
 7. **Danach wird es dein Experte.** Nach einem einzigen Durchlauf weiß deine Claude-Sitzung alles, was die Community weiß. Stell Rückfragen. Lass sie Prompts schreiben, E-Mails entwerfen, Reisen planen, Systeme entwerfen  immer verankert in dem, was gerade wirklich stimmt.
 
 ## Was die Leute sagen
 
-> „Ich habe eine Claude-Code-Skill gefunden, die zu jedem Thema die letzten 30 Tage auf Reddit, X, YouTube und HN recherchiert. Und dann schreibt sie dir die Prompts. Vor jedem Text, den ich schreibe, habe ich das bisher von Hand auf Reddit und X gemacht. Tab für Tab. Thread für Thread. Genau das ist der Teil, der 90 Minuten frisst. Der fällt jetzt weg.“  @itsjasonai
-
-> „Diese eine Skill hat meinen kompletten Recherche-Workflow ersetzt. Du gibst ihr ein Thema, sie holt sich von Reddit, X und dem Web, worüber die Leute wirklich reden. Keine alten Blogbeiträge. Echte Gespräche aus den letzten 30 Tagen.“  @itswilsoncharles
-
-> „5 der 10 Trending-Repos heute auf GitHub sind Claude-Tools. Nummer 1: mvanhorn/last30days-skill“  @yieldhunter95
 
 ## Open Source
 
@@ -389,8 +361,6 @@ Wie du einen PR aufmachst, steht in [CONTRIBUTING.md](CONTRIBUTING.md), die voll
 
 ---
 
-**@slashlast30days** · [github.com/mvanhorn/last30days-skill](https://swifttechco.com)
-
 ---
 
 ## Swift Tech Co.
@@ -399,6 +369,16 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+**Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+
+**Connect**
+
+- Website: [swifttechco.com](https://www.swifttechco.com)
+- LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
+- LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
+- X: [@MrOladoke](https://x.com/MrOladoke)
+- Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
+- Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
+- Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
