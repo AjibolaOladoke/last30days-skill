@@ -1,60 +1,12 @@
-# /last30days
+# last30days-skill
 
-English | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
+## What This Is
 
-<p align="center">
-  <img src="media/pr-assets/last30days-ad.gif" width="720" alt="last30days - an AI agent-led search engine that searches people, not editors" />
-</p>
+We keep a working index for product and engineering, and last30days-skill is the entry that collects our notes, examples and fixes. It reflects how Swift Tech Co. actually uses this in builds and client work.
 
-<p align="center">
-  <a href="https://github.com/mvanhorn/last30days-skill">
-    <img src="https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING" alt="GitHub Trending #1 Repository Of The Day" />
-  </a>
-  <br/>
-  <a href="https://trendshift.io/repositories/21997" target="_blank">
-    <img src="https://trendshift.io/api/badge/repositories/21997" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
-  </a>
-  <br/>
-  <a href="https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml">
-    <img src="https://github.com/mvanhorn/last30days-skill/actions/workflows/validate.yml/badge.svg" alt="Validate status" />
-  </a>
-</p>
+## Images
 
-**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**
-
-This README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.
-
-**Claude Code (recommended — auto-updates via marketplace):**
-```
-/plugin marketplace add mvanhorn/last30days-skill
-/plugin install last30days
-```
-
-**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**
-```
-npx skills add mvanhorn/last30days-skill -g
-```
-(`-g` installs globally for your user, available across all projects. Drop it to scope per-project.)
-
-More install options (claude.ai web, OpenClaw, manual) in the [Install](#install) section below.
-
-Zero config. Reddit, HN, Polymarket, and GitHub work immediately. Run it once and the setup wizard unlocks X, YouTube, TikTok, arXiv, Techmeme, and more in 30 seconds.
-
----
-
-Reddit upvotes. X likes. YouTube transcripts. TikTok engagement. Polymarket odds backed by real money and insider information. That's millions of people voting with their attention and their wallets every day. /last30days searches all of it in parallel, scores it by what real people actually engage with, and an AI agent judge synthesizes it into one brief.
-
-Google aggregates editors. /last30days searches people.
-
-You can't get this search anywhere else because no single AI has access to all of it. Google search doesn't touch Reddit comments or X posts. ChatGPT has a deal with Reddit but can't search X or TikTok. Gemini has YouTube but not Reddit. Claude has none of them natively. Each platform is a walled garden with its own API, its own tokens, its own auth. But you can bring your own keys and browser sessions, and suddenly an AI agent can search all of them at once, score them against each other, and tell you what actually matters.
-
-That's the unlock. Not one better search engine. A dozen disconnected platforms, bridged by an agent.
-
-```
-/last30days Peter Steinberger
-```
-
-You have a meeting tomorrow. You Google them. You get their LinkedIn from 2023. /last30days gives you what they're actually doing this month: joined OpenAI to work on Codex, fighting Anthropic's ban on third-party agents, shipping 23 PRs at 85% merge rate, building "LobsterOS" for cross-device agent control, and r/ClaudeCode hit 569 upvotes debating whether he's a hero or "insufferable." Scattered across X posts, Reddit threads, YouTube transcripts, and GitHub commits. None of it was on Google.
+[![last30days-skill](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Why this exists
 
@@ -389,3 +341,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to open a PR, [CONTRIBUTORS.md](CONTRIBUT
 ---
 
 **@slashlast30days** · [github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
+## Sources
+
+Compiled and maintained from upstream [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
