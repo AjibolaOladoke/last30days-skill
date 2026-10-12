@@ -6,7 +6,7 @@ We keep a working index for product and engineering, and last30days-skill is the
 
 ## Images
 
-[![last30days-skill](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![last30days-skill](images/preview.png)](https://github.com/Swift-Tech-Co/last30days-skill)
 
 ## Why this exists
 
@@ -341,6 +341,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to open a PR, [CONTRIBUTORS.md](CONTRIBUT
 ---
 
 **@slashlast30days** · [github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
+## Sources
+
+Compiled and maintained from upstream [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
